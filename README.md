@@ -35,6 +35,9 @@ deactivate
 ## Resultado
 Resultado
 
+![image](https://github.com/nicolascorchuelo/CodeEx/assets/90802118/efd72a4c-f4af-4d53-95b2-eb0929d5f754)
+
+
 ## Bonus y oportunidad de mejora
 
 * Agregar excepciones al código (buena práctica), controlar el error.
