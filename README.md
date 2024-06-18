@@ -39,14 +39,13 @@ deactivate
 El proceso da como resultado un dataframe que contiene la información necesaria para su análsis y responde las preguntas planteadas en el CodeEx, cada coluna respende cada uno de los puntos.
 
 * prints de la última semana 
-** por cada print: 
-    ○ un campo que indique si se hizo click o no 
-    ○ cantidad de veces que el usuario vio cada value prop en las 3 semanas previas a ese print. 
-    ○ cantidad de veces que el usuario clickeo cada value prop en las 3 semanas previas a ese print.
-    ○ cantidad de pagos que el usuario realizó para cada value prop en las 3 semanas previas a ese print.
-    ○ importes acumulados que el usuario gasto para cada value prop en las 3 semanas previas a ese print.
-
-
+    * por cada print: 
+        * un campo que indique si se hizo click o no 
+        * cantidad de veces que el usuario vio cada value prop en las 3 semanas previas a ese print. 
+        * cantidad de veces que el usuario clickeo cada value prop en las 3 semanas previas a ese print.
+        * cantidad de pagos que el usuario realizó para cada value prop en las 3 semanas previas a ese print.
+        * importes acumulados que el usuario gasto para cada value prop en las 3 semanas previas a ese print.
+    
 ![image](https://github.com/nicolascorchuelo/CodeEx/assets/90802118/efd72a4c-f4af-4d53-95b2-eb0929d5f754)
 
 
