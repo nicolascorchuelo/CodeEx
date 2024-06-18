@@ -1,11 +1,3 @@
-target:
-  host: "localhost"
-  database: "postgres"
-  user: "postgres"
-  password: "1234"
-  port: "8009"
-  autocommit: "True"
-
 source:
   path_csv_pays: "/source/pays.csv"
   path_json_prints: "/source/prints.json"
