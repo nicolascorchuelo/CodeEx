@@ -4,14 +4,14 @@ Creación de pipeline en python para la disponiblización de un DataFramse resul
 
 ## Explicación del proceso
 
-* common.py: Archivo que carga la configuración .yaml del proyecto.
-* config.yaml: Archivo de configuración, se encuentra los parámetros
-* EDA.ipynb: Anáisis exploratorio de los dataset.
-* funtions.py: Archivo que contiene todas las funciones del modelo.
-* main.py: Achivo principal de ejecución, contiene todo el procesos del desarrollo.
-* read_source.py: Archivo, calse de lectura de las fuentes (.json,csv).
-* requirements.txt: Toddas las dependecias del proyecto.
-* .gitignore: Directorio de capertas que no se suben al repo.
+* `common.py:` Archivo que carga la configuración .yaml del proyecto.
+* `config.yaml:` Archivo de configuración, se encuentra los parámetros
+* `EDA.ipynb:` Anáisis exploratorio de los dataset.
+* `funtions.py:` Archivo que contiene todas las funciones del modelo.
+* `main.py:` Achivo principal de ejecución, contiene todo el procesos del desarrollo.
+* `read_source.py:` Archivo, calse de lectura de las fuentes (.json,csv).
+* `requirements.txt:` Toddas las dependecias del proyecto.
+* `.gitignore:` Directorio de capertas que no se suben al repo.
 
 
 ## Prerequsito
@@ -36,3 +36,9 @@ deactivate
 Resultado
 
 ## Bonus y oportunidad de mejora
+
+* Agregar excepciones al código (buena práctica), controlar el error.
+* Agregar procesos de pruebas automatizados con librerías espeicales (pruebas automáticas).
+* Se puede implementar monitoréo a la ejecución (escricura de logs).
+* Mediante herramientas de CI/CD como github actions, se puede automatizar el despligue.
+* Se puede optar por manejar contenedores la solución o servicios serverless.

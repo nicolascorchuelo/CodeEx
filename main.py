@@ -51,8 +51,6 @@ if __name__=='__main__':
 
     "Parameters for the analysis"
 
-    print("hola mundo")
-
     now = df_prints['day_prints'].max()
     week_ago = now - timedelta(days=7)
     three_weeks_ago = now - timedelta(weeks=3)
@@ -94,7 +92,4 @@ if __name__=='__main__':
     
     end_time = time.time() 
     total_time = end_time - start_time 
-    print(f"Insert time: {total_time} seconds")
-                
-    
-    
+    print(f"Prcess time: {total_time} seconds")
