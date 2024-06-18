@@ -1,39 +1,28 @@
 # Code exercise MELI
 
-fabric-iac includes IaC examples to deploy Fabric capacity (F SKU) in Azure.
+Creación de pipeline en python para la disponiblización de un DataFramse resultante.
+
+## Explicación del proceso
 
 ## Prerequites
-Make sure you have the following prerequisites in place:
 
-- An Azure subscription
-- Azure CLI installed
-- Terraform CLI installed
-- Git installed
-
-## Terraform
-
-To deploy with terraform, configure the `variables.tf` file according to your requirements (*.tfvars omitted for brevity), jump into terraform folder and run:
+Se debe realizar por buenas prácticas la creación de un ambiente espécifico al cual lo denominé `etl_meli`, después de la creación se debe realizar la activación y la respectiva actualizacion de la librería `pip`.
 
 ```
-terraform init
+python3 -m venv etl_meli
+source etl_meli/bin/activate
+python -m pip install --upgrade pip
 ```
+Instalación de liberías necesarias para la ejecución del proceso.
 ```
-terraform apply --auto-approve
+pip install -r requirements.txt
+```
+Desactivar ambiente de ser necesarío.
+```
+deactivate
 ```
 
-## Bicep
+## Prerequites
+Resultado
 
-To deploy with bicep, configure the `main.bicep` params and run:
-
-```
-az deployment sub create --location <location> --template-file bicep/main.bicep
-```
-
-## ARM
-
-To deploy with ARM, configure the `parameters.json` and run (RG scope in this case):
-
-```
-az deployment group create --name fabtest --resource-group "<resource_group_name>" --template-file arm/fabric_capacity.json --parameter
-s arm/parameters.json
-```
+## Bonus y oportunidad de mejora
