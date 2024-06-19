@@ -16,7 +16,7 @@ Se crea un proyecto un pensamemiento de OOP, para mejor modificación y escalabi
 * `.gitignore:` Directorio de capertas que no se suben al repo.
 
 
-## Prerequsito
+## Prerequisito
 
 Se debe realizar por buenas prácticas la creación de un ambiente espécifico al cual lo denominé `etl_meli`, después de la creación se debe realizar la activación y la respectiva actualizacion de la librería `pip`.
 
