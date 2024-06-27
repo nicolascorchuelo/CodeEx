@@ -55,5 +55,5 @@ El proceso da como resultado un dataframe que contiene la información necesaria
 * Agregar procesos de pruebas automatizados con librerías espeicales (pruebas automáticas).
 * Se puede implementar monitoréo a la ejecución (escricura de logs).
 * Mediante herramientas de CI/CD como github actions, se puede automatizar el despligue.
-* Se puede optar por manejar contenedores la solución o servicios serverless
-* Se puede tener un mejor análisis de resultado postrando de forma más diciente los insights de la información.
+* Se puede optar por manejar contenedores en la solución o servicios serverless
+* Se puede tener un mejor análisis de resultado mostrando de forma más diciente los insights de la información.
